@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SideHustle Task 1</title>
+    <style>
+      body{
+        text-align: center;
+      }
+    </style>
+    
+    <script>
+      function myFunction() {
+        alert("The form was submitted");
+      }
+      </script>
+  </head>
+  <body>
+  
+    <div>
+      <h1>SideHustle Form</h1>
+      <form action="/action_page.php" onsubmit="myFunction()">
+        <div>
+          <div>
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter Full Name"
+              required
+            />
+          </div>
+          <br>
+
+          <div>
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email"
+              required
+            />
+          </div>
+          <br>
+
+          <div>
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="08012234567"
+              required
+            />
+          </div>
+
+          <br>
+          
+
+          <div>
+            <span>Gender</span>
+              <div>
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="male">
+
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="female">
+              </div>
+          </div>
+
+          <br>
+
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Password"
+              required
+            />
+          </div>
+          <br>
+
+        </div>
+
+          <div>
+            <input type="submit">
+          </div>
+
+       
+        </div>
+      </form>
+    
+    </div>
+  </body>
+</html>
